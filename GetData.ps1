@@ -80,3 +80,8 @@ $allTeams = $allGames.ForEach{
     }
 }
 
+$allGames | Export-Csv -Path $PSScriptRoot\allGames.csv
+$allGames | ConvertTo-Json | Out-File $PSScriptRoot\allGames.json
+$allTeams | Export-Csv -Path $PSScriptRoot\allTeams.csv
+$allTeams | ConvertTo-Json | Out-File $PSScriptRoot\allTeams.json
+
