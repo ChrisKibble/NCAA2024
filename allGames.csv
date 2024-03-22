@@ -1,72 +1,72 @@
 "Collected","GameId","GameState","FinalMessage","Round","Region","Network","StartDate","StartTime","HomeTeam","AwayTeam","HomeScore","AwayScore","Winner"
-"03/22/2024 15:01:58","2427537","final","FINAL","First Round","WEST","CBS","03-21-2024","12:15PM ET","Mississippi St.","Michigan St.","51","69","Michigan St."
-"03/22/2024 15:01:58","2427532","final","FINAL","First Round","EAST","truTV","03-21-2024","12:40PM ET","BYU","Duquesne","67","71","Duquesne"
-"03/22/2024 15:01:58","2427547","final","FINAL","First Round","MIDWEST","TNT","03-21-2024","01:30PM ET","Creighton","Akron","77","60","Creighton"
-"03/22/2024 15:01:58","2427541","final","FINAL","First Round","WEST","TBS","03-21-2024","02:00PM ET","Arizona","Long Beach St.","85","65","Arizona"
-"03/22/2024 15:01:58","2427536","final","FINAL","First Round","WEST","CBS","03-21-2024","02:47PM ET","North Carolina","Wagner","90","62","North Carolina"
-"03/22/2024 15:01:58","2427533","final","FINAL","First Round","EAST","truTV","03-21-2024","03:34PM ET","Illinois","Morehead St.","85","69","Illinois"
-"03/22/2024 15:01:58","2427546","final","FINAL","First Round","MIDWEST","TNT","03-21-2024","04:09PM ET","South Carolina","Oregon","73","87","Oregon"
-"03/22/2024 15:01:58","2427540","final","FINAL","First Round","WEST","TBS","03-21-2024","04:47PM ET","Dayton","Nevada","63","60","Dayton"
-"03/22/2024 15:01:58","2427538","final","FINAL","First Round","MIDWEST","TNT","03-21-2024","06:50PM ET","Texas","Colorado St.","56","44","Texas"
-"03/22/2024 15:01:58","2427545","final","FINAL","First Round","SOUTH","CBS","03-21-2024","07:24PM ET","Kentucky","Oakland","76","80","Oakland"
-"03/22/2024 15:01:58","2427535","final","FINAL","First Round","EAST","truTV","03-21-2024","07:40PM ET","Iowa St.","South Dakota St.","82","65","Iowa St."
-"03/22/2024 15:01:58","2427542","final","FINAL","First Round","MIDWEST","TBS","03-21-2024","07:47PM ET","Gonzaga","McNeese","86","65","Gonzaga"
-"03/22/2024 15:01:58","2427539","final","FINAL","First Round","MIDWEST","TNT","03-21-2024","09:28PM ET","Tennessee","Saint Peter's","83","49","Tennessee"
-"03/22/2024 15:01:58","2427544","final","FINAL","First Round","SOUTH","CBS","03-21-2024","10:12PM ET","Texas Tech","NC State","67","80","NC State"
-"03/22/2024 15:01:58","2427534","final","FINAL","First Round","EAST","truTV","03-21-2024","10:15PM ET","Washington St.","Drake","66","61","Washington St."
-"03/22/2024 15:01:58","2427543","final","FINAL","First Round","MIDWEST","TBS","03-21-2024","10:20PM ET","Kansas","Samford","93","89","Kansas"
-"03/22/2024 15:01:58","2427553","pre","","First Round","EAST","CBS","03-22-2024","12:15PM ET","Fla. Atlantic","Northwestern","","",
-"03/22/2024 15:01:58","2427557","pre","","First Round","WEST","truTV","03-22-2024","12:40PM ET","Baylor","Colgate","","",
-"03/22/2024 15:01:58","2427560","pre","","First Round","EAST","TNT","03-22-2024","01:45PM ET","San Diego St.","UAB","","",
-"03/22/2024 15:01:58","2427549","pre","","First Round","SOUTH","TBS","03-22-2024","02:00PM ET","Marquette","Western Ky.","","",
-"03/22/2024 15:01:58","2427552","pre","","First Round","EAST","CBS","03-22-2024","02:45PM ET","UConn","Stetson","","",
-"03/22/2024 15:01:58","2427556","pre","","First Round","WEST","truTV","03-22-2024","03:10PM ET","Clemson","New Mexico","","",
-"03/22/2024 15:01:58","2427561","pre","","First Round","EAST","TNT","03-22-2024","04:15PM ET","Auburn","Yale","","",
-"03/22/2024 15:01:58","2427548","pre","","First Round","SOUTH","TBS","03-22-2024","04:30PM ET","Florida","Colorado","","",
-"03/22/2024 15:01:58","2427559","pre","","First Round","SOUTH","TNT","03-22-2024","06:50PM ET","Nebraska","Texas A&M","","",
-"03/22/2024 15:01:58","2427555","pre","","First Round","SOUTH","CBS","03-22-2024","07:10PM ET","Duke","Vermont","","",
-"03/22/2024 15:01:58","2427550","pre","","First Round","MIDWEST","TBS","03-22-2024","07:25PM ET","Purdue","Grambling","","",
-"03/22/2024 15:01:58","2427563","pre","","First Round","WEST","truTV","03-22-2024","07:35PM ET","Alabama","Col. of Charleston","","",
-"03/22/2024 15:01:58","2427558","pre","","First Round","SOUTH","TNT","03-22-2024","09:20PM ET","Houston","Longwood","","",
-"03/22/2024 15:01:58","2427554","pre","","First Round","SOUTH","CBS","03-22-2024","09:40PM ET","Wisconsin","James Madison","","",
-"03/22/2024 15:01:58","2427551","pre","","First Round","MIDWEST","TBS","03-22-2024","09:55PM ET","Utah St.","TCU","","",
-"03/22/2024 15:01:58","2427562","pre","","First Round","WEST","truTV","03-22-2024","10:05PM ET","Saint Mary's (CA)","Grand Canyon","","",
-"03/22/2024 15:01:58","2429735","pre","","","","","03-23-2024","11:30AM ET","Seton Hall","North Texas","","",
-"03/22/2024 15:01:58","","pre","","Second Round","WEST","CBS","03-23-2024","12:45PM ET","Arizona","Dayton","","",
-"03/22/2024 15:01:58","2426905","pre","","","","","03-23-2024","01:00PM ET","Bethune-Cookman","Arkansas St.","","",
-"03/22/2024 15:01:58","2429743","pre","","","","","03-23-2024","02:00PM ET","Cincinnati","Bradley","","",
-"03/22/2024 15:01:58","","pre","","Second Round","MIDWEST","CBS","03-23-2024","03:15PM ET","Kansas","Gonzaga","","",
-"03/22/2024 15:01:58","2426907","pre","","","","","03-23-2024","03:30PM ET","Chicago St.","UC San Diego","","",
-"03/22/2024 15:01:58","2428061","pre","","","","","03-23-2024","04:00PM ET","Norfolk St.","Alabama A&M","","",
-"03/22/2024 15:01:58","2426909","pre","","","","","03-23-2024","05:30PM ET","Delaware St.","Seattle U","","",
-"03/22/2024 15:01:58","","pre","","Second Round","WEST","CBS","03-23-2024","05:30PM ET","North Carolina","Michigan St.","","",
-"03/22/2024 15:01:58","","pre","","Second Round","EAST","TNT","03-23-2024","06:10PM ET","Iowa St.","Washington St.","","",
-"03/22/2024 15:01:58","2428862","pre","","","","","03-23-2024","07:00PM ET","Ohio St.","Virginia Tech","","",
-"03/22/2024 15:01:58","","pre","","Second Round","SOUTH","TBS","03-23-2024","07:10PM ET","NC State","Oakland","","",
-"03/22/2024 15:01:58","","pre","","Second Round","MIDWEST","CBS","03-23-2024","08:00PM ET","Tennessee","Texas","","",
-"03/22/2024 15:01:58","","pre","","Second Round","EAST","TNT","03-23-2024","08:40PM ET","Illinois","Duquesne","","",
-"03/22/2024 15:01:58","","pre","","Second Round","MIDWEST","TBS","03-23-2024","09:40PM ET","Creighton","Oregon","","",
-"03/22/2024 15:01:58","2426904","pre","","","","","03-24-2024","11:00AM ET","Cleveland St.","Northern Colo.","","",
-"03/22/2024 15:01:58","2426906","pre","","","","","03-24-2024","01:00PM ET","Presbyterian","Montana","","",
-"03/22/2024 15:01:58","2429740","pre","","","","","03-24-2024","02:00PM ET","Indiana St.","Minnesota","","",
-"03/22/2024 15:01:58","2426908","pre","","","","","03-24-2024","03:30PM ET","Little Rock","Fairfield","","",
-"03/22/2024 15:01:58","2429739","pre","","","","","03-24-2024","04:00PM ET","Wake Forest","Georgia","","",
-"03/22/2024 15:01:58","2426910","pre","","","","","03-24-2024","05:30PM ET","Evansville","Quinnipiac","","",
-"03/22/2024 15:01:58","2429741","pre","","","","","03-24-2024","07:30PM ET","South Fla.","VCU","","",
-"03/22/2024 15:01:58","2429742","pre","","","","","03-24-2024","09:00PM ET","Utah","Iowa","","",
-"03/22/2024 15:01:58","2429738","pre","","","","","03-24-2024","09:30PM ET","UNLV","Boston College","","",
-"03/22/2024 15:01:58","","pre","","Sweet 16®","EAST","","03-28-2024","TBA","","","","",
-"03/22/2024 15:01:58","","pre","","Sweet 16®","EAST","","03-28-2024","TBA","","","","",
-"03/22/2024 15:01:58","","pre","","Sweet 16®","WEST","","03-28-2024","TBA","","","","",
-"03/22/2024 15:01:58","","pre","","Sweet 16®","WEST","","03-28-2024","TBA","","","","",
-"03/22/2024 15:01:58","","pre","","Sweet 16®","SOUTH","","03-29-2024","TBA","","","","",
-"03/22/2024 15:01:58","","pre","","Sweet 16®","SOUTH","","03-29-2024","TBA","","","","",
-"03/22/2024 15:01:58","","pre","","Sweet 16®","MIDWEST","","03-29-2024","TBA","","","","",
-"03/22/2024 15:01:58","","pre","","Sweet 16®","MIDWEST","","03-29-2024","TBA","","","","",
-"03/22/2024 15:01:58","","pre","","Elite Eight®","EAST","","03-30-2024","TBA","","","","",
-"03/22/2024 15:01:58","","pre","","Elite Eight®","WEST","","03-30-2024","TBA","","","","",
-"03/22/2024 15:01:58","","pre","","Elite Eight®","SOUTH","","03-31-2024","TBA","","","","",
-"03/22/2024 15:01:58","","pre","","Elite Eight®","MIDWEST","","03-31-2024","TBA","","","","",
-"03/22/2024 15:01:58","","pre","","FINAL FOUR®","","TBS","04-06-2024","TBA","","","","",
-"03/22/2024 15:01:58","","pre","","FINAL FOUR®","","TBS","04-06-2024","TBA","","","","",
-"03/22/2024 15:01:58","","pre","","Championship","","TBS","04-08-2024","TBA","","","","",
+"03/22/2024 16:02:51","2427537","final","FINAL","First Round","WEST","CBS","03-21-2024","12:15PM ET","Mississippi St.","Michigan St.","51","69","Michigan St."
+"03/22/2024 16:02:51","2427532","final","FINAL","First Round","EAST","truTV","03-21-2024","12:40PM ET","BYU","Duquesne","67","71","Duquesne"
+"03/22/2024 16:02:51","2427547","final","FINAL","First Round","MIDWEST","TNT","03-21-2024","01:30PM ET","Creighton","Akron","77","60","Creighton"
+"03/22/2024 16:02:51","2427541","final","FINAL","First Round","WEST","TBS","03-21-2024","02:00PM ET","Arizona","Long Beach St.","85","65","Arizona"
+"03/22/2024 16:02:51","2427536","final","FINAL","First Round","WEST","CBS","03-21-2024","02:47PM ET","North Carolina","Wagner","90","62","North Carolina"
+"03/22/2024 16:02:51","2427533","final","FINAL","First Round","EAST","truTV","03-21-2024","03:34PM ET","Illinois","Morehead St.","85","69","Illinois"
+"03/22/2024 16:02:51","2427546","final","FINAL","First Round","MIDWEST","TNT","03-21-2024","04:09PM ET","South Carolina","Oregon","73","87","Oregon"
+"03/22/2024 16:02:51","2427540","final","FINAL","First Round","WEST","TBS","03-21-2024","04:47PM ET","Dayton","Nevada","63","60","Dayton"
+"03/22/2024 16:02:51","2427538","final","FINAL","First Round","MIDWEST","TNT","03-21-2024","06:50PM ET","Texas","Colorado St.","56","44","Texas"
+"03/22/2024 16:02:51","2427545","final","FINAL","First Round","SOUTH","CBS","03-21-2024","07:24PM ET","Kentucky","Oakland","76","80","Oakland"
+"03/22/2024 16:02:51","2427535","final","FINAL","First Round","EAST","truTV","03-21-2024","07:40PM ET","Iowa St.","South Dakota St.","82","65","Iowa St."
+"03/22/2024 16:02:51","2427542","final","FINAL","First Round","MIDWEST","TBS","03-21-2024","07:47PM ET","Gonzaga","McNeese","86","65","Gonzaga"
+"03/22/2024 16:02:51","2427539","final","FINAL","First Round","MIDWEST","TNT","03-21-2024","09:28PM ET","Tennessee","Saint Peter's","83","49","Tennessee"
+"03/22/2024 16:02:51","2427544","final","FINAL","First Round","SOUTH","CBS","03-21-2024","10:12PM ET","Texas Tech","NC State","67","80","NC State"
+"03/22/2024 16:02:51","2427534","final","FINAL","First Round","EAST","truTV","03-21-2024","10:15PM ET","Washington St.","Drake","66","61","Washington St."
+"03/22/2024 16:02:51","2427543","final","FINAL","First Round","MIDWEST","TBS","03-21-2024","10:20PM ET","Kansas","Samford","93","89","Kansas"
+"03/22/2024 16:02:51","2427553","pre","","First Round","EAST","CBS","03-22-2024","12:15PM ET","Fla. Atlantic","Northwestern","","",
+"03/22/2024 16:02:51","2427557","pre","","First Round","WEST","truTV","03-22-2024","12:40PM ET","Baylor","Colgate","","",
+"03/22/2024 16:02:51","2427560","pre","","First Round","EAST","TNT","03-22-2024","01:45PM ET","San Diego St.","UAB","","",
+"03/22/2024 16:02:51","2427549","pre","","First Round","SOUTH","TBS","03-22-2024","02:00PM ET","Marquette","Western Ky.","","",
+"03/22/2024 16:02:51","2427552","pre","","First Round","EAST","CBS","03-22-2024","02:45PM ET","UConn","Stetson","","",
+"03/22/2024 16:02:51","2427556","pre","","First Round","WEST","truTV","03-22-2024","03:10PM ET","Clemson","New Mexico","","",
+"03/22/2024 16:02:51","2427561","pre","","First Round","EAST","TNT","03-22-2024","04:15PM ET","Auburn","Yale","","",
+"03/22/2024 16:02:51","2427548","pre","","First Round","SOUTH","TBS","03-22-2024","04:30PM ET","Florida","Colorado","","",
+"03/22/2024 16:02:51","2427559","pre","","First Round","SOUTH","TNT","03-22-2024","06:50PM ET","Nebraska","Texas A&M","","",
+"03/22/2024 16:02:51","2427555","pre","","First Round","SOUTH","CBS","03-22-2024","07:10PM ET","Duke","Vermont","","",
+"03/22/2024 16:02:51","2427550","pre","","First Round","MIDWEST","TBS","03-22-2024","07:25PM ET","Purdue","Grambling","","",
+"03/22/2024 16:02:51","2427563","pre","","First Round","WEST","truTV","03-22-2024","07:35PM ET","Alabama","Col. of Charleston","","",
+"03/22/2024 16:02:51","2427558","pre","","First Round","SOUTH","TNT","03-22-2024","09:20PM ET","Houston","Longwood","","",
+"03/22/2024 16:02:51","2427554","pre","","First Round","SOUTH","CBS","03-22-2024","09:40PM ET","Wisconsin","James Madison","","",
+"03/22/2024 16:02:51","2427551","pre","","First Round","MIDWEST","TBS","03-22-2024","09:55PM ET","Utah St.","TCU","","",
+"03/22/2024 16:02:51","2427562","pre","","First Round","WEST","truTV","03-22-2024","10:05PM ET","Saint Mary's (CA)","Grand Canyon","","",
+"03/22/2024 16:02:51","2429735","pre","","","","","03-23-2024","11:30AM ET","Seton Hall","North Texas","","",
+"03/22/2024 16:02:51","","pre","","Second Round","WEST","CBS","03-23-2024","12:45PM ET","Arizona","Dayton","","",
+"03/22/2024 16:02:51","2426905","pre","","","","","03-23-2024","01:00PM ET","Bethune-Cookman","Arkansas St.","","",
+"03/22/2024 16:02:51","2429743","pre","","","","","03-23-2024","02:00PM ET","Cincinnati","Bradley","","",
+"03/22/2024 16:02:51","","pre","","Second Round","MIDWEST","CBS","03-23-2024","03:15PM ET","Kansas","Gonzaga","","",
+"03/22/2024 16:02:51","2426907","pre","","","","","03-23-2024","03:30PM ET","Chicago St.","UC San Diego","","",
+"03/22/2024 16:02:51","2428061","pre","","","","","03-23-2024","04:00PM ET","Norfolk St.","Alabama A&M","","",
+"03/22/2024 16:02:51","2426909","pre","","","","","03-23-2024","05:30PM ET","Delaware St.","Seattle U","","",
+"03/22/2024 16:02:51","","pre","","Second Round","WEST","CBS","03-23-2024","05:30PM ET","North Carolina","Michigan St.","","",
+"03/22/2024 16:02:51","","pre","","Second Round","EAST","TNT","03-23-2024","06:10PM ET","Iowa St.","Washington St.","","",
+"03/22/2024 16:02:51","2428862","pre","","","","","03-23-2024","07:00PM ET","Ohio St.","Virginia Tech","","",
+"03/22/2024 16:02:51","","pre","","Second Round","SOUTH","TBS","03-23-2024","07:10PM ET","NC State","Oakland","","",
+"03/22/2024 16:02:51","","pre","","Second Round","MIDWEST","CBS","03-23-2024","08:00PM ET","Tennessee","Texas","","",
+"03/22/2024 16:02:51","","pre","","Second Round","EAST","TNT","03-23-2024","08:40PM ET","Illinois","Duquesne","","",
+"03/22/2024 16:02:51","","pre","","Second Round","MIDWEST","TBS","03-23-2024","09:40PM ET","Creighton","Oregon","","",
+"03/22/2024 16:02:51","2426904","pre","","","","","03-24-2024","11:00AM ET","Cleveland St.","Northern Colo.","","",
+"03/22/2024 16:02:51","2426906","pre","","","","","03-24-2024","01:00PM ET","Presbyterian","Montana","","",
+"03/22/2024 16:02:51","2429740","pre","","","","","03-24-2024","02:00PM ET","Indiana St.","Minnesota","","",
+"03/22/2024 16:02:51","2426908","pre","","","","","03-24-2024","03:30PM ET","Little Rock","Fairfield","","",
+"03/22/2024 16:02:51","2429739","pre","","","","","03-24-2024","04:00PM ET","Wake Forest","Georgia","","",
+"03/22/2024 16:02:51","2426910","pre","","","","","03-24-2024","05:30PM ET","Evansville","Quinnipiac","","",
+"03/22/2024 16:02:51","2429741","pre","","","","","03-24-2024","07:30PM ET","South Fla.","VCU","","",
+"03/22/2024 16:02:51","2429742","pre","","","","","03-24-2024","09:00PM ET","Utah","Iowa","","",
+"03/22/2024 16:02:51","2429738","pre","","","","","03-24-2024","09:30PM ET","UNLV","Boston College","","",
+"03/22/2024 16:02:51","","pre","","Sweet 16®","EAST","","03-28-2024","TBA","","","","",
+"03/22/2024 16:02:51","","pre","","Sweet 16®","EAST","","03-28-2024","TBA","","","","",
+"03/22/2024 16:02:51","","pre","","Sweet 16®","WEST","","03-28-2024","TBA","","","","",
+"03/22/2024 16:02:51","","pre","","Sweet 16®","WEST","","03-28-2024","TBA","","","","",
+"03/22/2024 16:02:51","","pre","","Sweet 16®","SOUTH","","03-29-2024","TBA","","","","",
+"03/22/2024 16:02:51","","pre","","Sweet 16®","SOUTH","","03-29-2024","TBA","","","","",
+"03/22/2024 16:02:51","","pre","","Sweet 16®","MIDWEST","","03-29-2024","TBA","","","","",
+"03/22/2024 16:02:51","","pre","","Sweet 16®","MIDWEST","","03-29-2024","TBA","","","","",
+"03/22/2024 16:02:51","","pre","","Elite Eight®","EAST","","03-30-2024","TBA","","","","",
+"03/22/2024 16:02:51","","pre","","Elite Eight®","WEST","","03-30-2024","TBA","","","","",
+"03/22/2024 16:02:51","","pre","","Elite Eight®","SOUTH","","03-31-2024","TBA","","","","",
+"03/22/2024 16:02:51","","pre","","Elite Eight®","MIDWEST","","03-31-2024","TBA","","","","",
+"03/22/2024 16:02:51","","pre","","FINAL FOUR®","","TBS","04-06-2024","TBA","","","","",
+"03/22/2024 16:02:51","","pre","","FINAL FOUR®","","TBS","04-06-2024","TBA","","","","",
+"03/22/2024 16:02:51","","pre","","Championship","","TBS","04-08-2024","TBA","","","","",
