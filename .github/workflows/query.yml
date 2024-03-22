@@ -10,19 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Clone Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Run the PowerShell Script
         shell: pwsh
         run: ./GetData.ps1
-      - name: Submit a Pull Request
-        id: cpr
-        uses: peter-evans/create-pull-request@v3
-        with:
-          commit-message: Updated Microsoft Windows Build Numbers JSON
-          committer: GitHub <noreply@github.com>
-          branch: au/ms-msapps-update-buildnumbers
-          delete-branch: true
-          title: Automatic Update of M365 App Build Numbers
       - name: Check outputs
         run: |
           echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
