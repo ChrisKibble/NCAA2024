@@ -1,6 +1,4 @@
-﻿Clear-Host
-
-$gameDates = @"
+﻿$gameDates = @"
 2024-03-21
 2024-03-22
 2024-03-23
@@ -13,7 +11,8 @@ $gameDates = @"
 2024-04-08
 "@ -split "`r?`n"
 
-Write-Host "Querying API for Each Date and loading into 'allGames'"
+$collectedDate = Get-Date
+
 $allGames = $gameDates.ForEach{
     $ymd = $_ -replace '-','/'
 
@@ -23,6 +22,7 @@ $allGames = $gameDates.ForEach{
     $response.games.ForEach{
         $ThisGame = $_.Game
         [PSCustomObject]@{
+            Collected = $collectedDate
             GameId = $ThisGame.GameId
             GameState = $ThisGame.gameState
             FinalMessage = $ThisGame.finalMessage
@@ -46,11 +46,11 @@ $allGames = $gameDates.ForEach{
         }
     }
 }
-Write-Host "Count for 'allGames' is is $($gameDates.count)"
 
-Write-Host "Looping Over All Games and Creating 'allTeams' Variable"
+
 $allTeams = $allGames.ForEach{
     [PSCustomObject]@{
+        Collected = $collectedDate
         GameId = $_.GameId
         GameState = $_.gameState
         FinalMessage = $_.finalMessage
@@ -66,6 +66,7 @@ $allTeams = $allGames.ForEach{
         WinningTeam = $_.Winner
     }
     [PSCustomObject]@{
+        Collected = $collectedDate
         GameId = $_.GameId
         GameState = $_.gameState
         FinalMessage = $_.finalMessage
@@ -82,24 +83,8 @@ $allTeams = $allGames.ForEach{
     }
 }
 
-Write-Host "Count for 'allTeams' is is $($allTeams.count)"
+$allGames | Export-Csv -Path $PSScriptRoot\allGames.csv
+$allGames | ConvertTo-Json | Out-File $PSScriptRoot\allGames.json
+$allTeams | Export-Csv -Path $PSScriptRoot\allTeams.csv
+$allTeams | ConvertTo-Json | Out-File $PSScriptRoot\allTeams.json
 
-Try {
-    Write-Host "Exporting allGames to CSV"
-    $allGames | Export-Csv -Path $PSScriptRoot\allGames.csv
-
-    Write-Host "Exporting allGames to JSON"
-    $allGames | ConvertTo-Json | Out-File $PSScriptRoot\allGames.json
-
-    Write-Host "Exporting allTeams to CSV"
-    $allTeams | Export-Csv -Path $PSScriptRoot\allTeams.csv
-
-    Write-Host "Exporting allTeams to JSON"
-    $allTeams | ConvertTo-Json | Out-File $PSScriptRoot\allTeams.json
-} Catch {
-    Write-Host "Error Exporting Data. $($_.Exception.Message)"    
-    Exit 1
-}
-
-Write-Host "Exiting"
-Exit 0
