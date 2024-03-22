@@ -84,15 +84,22 @@ $allTeams = $allGames.ForEach{
 
 Write-Host "Count for 'allTeams' is is $($allTeams.count)"
 
-Write-Host "Exporting allGames to CSV"
-$allGames | Export-Csv -Path $PSScriptRoot\allGames.csv
+Try {
+    Write-Host "Exporting allGames to CSV"
+    $allGames | Export-Csv -Path $PSScriptRoot\allGames.csv
 
-Write-Host "Exporting allGames to JSON"
-$allGames | ConvertTo-Json | Out-File $PSScriptRoot\allGames.json
+    Write-Host "Exporting allGames to JSON"
+    $allGames | ConvertTo-Json | Out-File $PSScriptRoot\allGames.json
 
-Write-Host "Exporting allTeams to CSV"
-$allTeams | Export-Csv -Path $PSScriptRoot\allTeams.csv
+    Write-Host "Exporting allTeams to CSV"
+    $allTeams | Export-Csv -Path $PSScriptRoot\allTeams.csv
 
-Write-Host "Exporting allTeams to JSON"
-$allTeams | ConvertTo-Json | Out-File $PSScriptRoot\allTeams.json
+    Write-Host "Exporting allTeams to JSON"
+    $allTeams | ConvertTo-Json | Out-File $PSScriptRoot\allTeams.json
+} Catch {
+    Write-Host "Error Exporting Data. $($_.Exception.Message)"    
+    Exit 1
+}
 
+Write-Host "Exiting"
+Exit 0
