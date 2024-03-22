@@ -16,10 +16,6 @@ jobs:
       - name: Run the PowerShell Script
         shell: pwsh
         run: ./GetData.ps1
-      - name: Check outputs
-        run: |
-          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
-          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
       - name: Commit Change
         run: |
           git config --global user.name 'GitHub Action'
