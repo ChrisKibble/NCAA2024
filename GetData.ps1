@@ -13,6 +13,7 @@ $gameDates = @"
 2024-04-08
 "@ -split "`r?`n"
 
+Write-Host "Querying API for Each Date and loading into 'allGames'"
 $allGames = $gameDates.ForEach{
     $ymd = $_ -replace '-','/'
 
@@ -45,8 +46,9 @@ $allGames = $gameDates.ForEach{
         }
     }
 }
+Write-Host "Count for 'allGames' is is $($gameDates.count)"
 
-
+Write-Host "Looping Over All Games and Creating 'allTeams' Variable"
 $allTeams = $allGames.ForEach{
     [PSCustomObject]@{
         GameId = $_.GameId
@@ -80,8 +82,17 @@ $allTeams = $allGames.ForEach{
     }
 }
 
+Write-Host "Count for 'allTeams' is is $($allTeams.count)"
+
+Write-Host "Exporting allGames to CSV"
 $allGames | Export-Csv -Path $PSScriptRoot\allGames.csv
+
+Write-Host "Exporting allGames to JSON"
 $allGames | ConvertTo-Json | Out-File $PSScriptRoot\allGames.json
+
+Write-Host "Exporting allTeams to CSV"
 $allTeams | Export-Csv -Path $PSScriptRoot\allTeams.csv
+
+Write-Host "Exporting allTeams to JSON"
 $allTeams | ConvertTo-Json | Out-File $PSScriptRoot\allTeams.json
 
