@@ -36,7 +36,7 @@ $allGames = $gameDates.ForEach{
             HomeScore = $ThisGame.Home.score
             AwayScore = $ThisGame.Away.score
             Winner = $(
-                If($ThisGame.finalMessage -ne 'Final') { 
+                If($ThisGame.gameState -ne 'Final') { 
                     $null 
                 } ElseIf($ThisGame.Home.score -gt $ThisGame.Away.score) { 
                     $ThisGame.Home.names.short 
